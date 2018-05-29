@@ -182,7 +182,7 @@ export class DataTableBodyComponent implements OnInit, OnDestroy {
    * @memberOf DataTableBodyComponent
    */
   get scrollHeight(): number {
-    if(this.scrollbarV) {
+    if(this.scrollbarV && this.rowCount) {
       return this.rowHeightsCache.query(this.rowCount - 1);
     }
   }
