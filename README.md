@@ -13,6 +13,7 @@ Check out the [documentation](https://swimlane.gitbooks.io/ngx-datatable/) & [de
 
 See the [changelog](https://github.com/swimlane/ngx-datatable/blob/master/docs/changelog.md) for recent changes.
 
+
 ## Features
 - Handle large data sets ( Virtual DOM )
 - Expressive Header and Cell Templates
